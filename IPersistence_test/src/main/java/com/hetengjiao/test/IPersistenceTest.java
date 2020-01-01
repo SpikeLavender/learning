@@ -51,7 +51,7 @@ public class IPersistenceTest {
 
 		// 调用
 		User user = new User();
-		user.setId(7);
+		user.setId(120);
 		user.setUsername("hetengjiao");
 
 		IUserMapper userMapper = sqlSession.getMapper(IUserMapper.class);
